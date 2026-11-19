@@ -198,9 +198,7 @@ export default function App() {
         {/* Header */}
         <header className="flex items-center justify-between py-5">
           <a href="#" className="flex items-center gap-3" aria-label="Chromatic home">
-            <span className="grid size-10 place-items-center rounded-2xl bg-foreground text-background">
-              <Icon name="palette" weight="fill" className="text-xl" />
-            </span>
+            <img src="/logo.png" alt="Chromatic logo" className="size-10 rounded-2xl object-cover" />
             <span className="text-xl font-extrabold tracking-[-0.04em]">Chromatic</span>
           </a>
           <span className="hidden items-center gap-2 rounded-full border border-foreground/15 px-3.5 py-1.5 text-xs font-semibold text-muted-foreground sm:flex">
